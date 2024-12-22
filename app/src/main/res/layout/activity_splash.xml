@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="300sp"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/mobigic_logo"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/word_search_puzzle"
+        android:textColor="#2874f0"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textSize="26sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/logoImage"/>
+
+</RelativeLayout>
